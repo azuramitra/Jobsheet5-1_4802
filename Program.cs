@@ -1,1 +1,13 @@
-﻿Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("=== RINCIAN PENCETAKAN ===");
+string nama = "Andi";
+Console.WriteLine("Nama pelanggan: " + nama);
+int  jumlahHalamanYangDicetak  = 20;
+Console.WriteLine("Jumlah halaman yang dicetak: " + jumlahHalamanYangDicetak);
+int hargaPerhalamaan = 500;
+Console.WriteLine("Harga per halaman: " + hargaPerhalamaan);
+int subtotal = jumlahHalamanYangDicetak * hargaPerhalamaan;
+Console.WriteLine("Subtotal: " + subtotal);
+int hargaAdministrasi = 2000;
+Console.WriteLine("Harga administrasi: " + hargaAdministrasi);
+int total = subtotal + hargaAdministrasi;
+Console.WriteLine("Total: " + total);
